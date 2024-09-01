@@ -1,0 +1,1 @@
+select client_id, count(*) as project_count from project group by client_id;
